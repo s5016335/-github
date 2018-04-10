@@ -20,7 +20,7 @@ PopupMenu的選單資源(menu\ ****.xml)
 PopupMenu的基本設定
 ```
 	// View 為你自定義的物件 ex: TextView name= (Text) findViewById(R.id.name); name 就為View
- 	PopupMenu pop = new PopupMenu(Context context, View anchor
+ 	PopupMenu pop = new PopupMenu(Context context, View anchor)
  	// **** 為自定義item .xml
  	pop.getMenuInflater.inflate(R.menu.****);
 
