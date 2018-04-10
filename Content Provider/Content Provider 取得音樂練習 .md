@@ -1,5 +1,5 @@
 # Content-Provider-test
-練習 Content Provider 聯絡人
+ 利用Content Provider 來取得SD卡內的音樂資訊
 
 #####  檔案名稱: MainActivity.java
 ```
