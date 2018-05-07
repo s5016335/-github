@@ -13,7 +13,7 @@ public class ScreenBroadcastReceiver extends BroadcastReceiver {
 
         String action = intent.getAction();
         String msg=intent.getStringExtra("msg");
-        Toast.makeText(context, "接收的Intent的Action为：" + action + "\n消息内容是"+msg, Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "接收的Intent的Action為：" + action + "\n消息内容是"+msg, Toast.LENGTH_SHORT).show();
 
 
     }
