@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         final AlarmManager am = (AlarmManager)getSystemService(ALARM_SERVICE);
         final Intent intent = new Intent();
         intent.setAction("org.hualang.alarm.action.BC_ACTION");
-        intent.putExtra("msg", "你该起床了");
+        intent.putExtra("msg", "你該起床了");
         final PendingIntent pi = PendingIntent.getBroadcast(MainActivity.this, 0, intent, 0);
         final long time = System.currentTimeMillis();
 
